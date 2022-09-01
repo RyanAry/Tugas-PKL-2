@@ -24,12 +24,20 @@
   }
 }
 @media screen and (max-width: 1000px) {
-  .head-img {
-    width: 50%;
-    height: 50%;
+  .head-img img {
+    display: none;
   }
   .text-header {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+  .text-header h1 {
     text-align: center;
+  }
+  .text-header button {
+    font-size: 20px;
+    display: block;
+    margin: auto;
   }
   .card-planet img {
     margin-top: -150px;
