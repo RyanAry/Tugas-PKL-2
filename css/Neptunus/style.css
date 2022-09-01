@@ -1,0 +1,205 @@
+@media screen and (min-width: 1200px) {
+  .text-header {
+    padding: 300px;
+    text-align: left;
+  }
+  .text-header h1 {
+    font-size: 75px;
+  }
+  .text-header button {
+    font-size: 50px;
+  }
+  .head-img img {
+    width: 700px;
+    height: 700px;
+    margin-right: 100px;
+    animation: melayang 4s infinite;
+  }
+  .text-1 h1 {
+    padding-left: 100px;
+    padding-bottom: 50px;
+    margin-top: -500px;
+  }
+  .text-1 p {
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 20px;
+  }
+  .card-text-1 img {
+    width: 30%;
+    height: 30%;
+    opacity: 35%;
+  }
+  .card-body-3 {
+    margin-top: 250px;
+  }
+  .text-2 p {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .head-img img {
+    display: none;
+  }
+  .text-header {
+    margin-bottom: 200px;
+  }
+  .text-header h1 {
+    margin-top: 350px;
+    text-align: center;
+  }
+  .text-header button {
+    font-size: 20px;
+    display: block;
+    margin: auto;
+  }
+  .text-1 h1 {
+    margin-top: -300px;
+    padding-left: 25px;
+  }
+  .text-1 p {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .text-2 p {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .card-text-1 img {
+    width: 100%;
+    height: 100%;
+    opacity: 25%;
+  }
+  #Head {
+    padding-bottom: 50px;
+  }
+}
+body {
+  background-color: black;
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+}
+nav img {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+}
+nav h3 {
+  color: white;
+  margin-right: 40px;
+  font-weight: bolder;
+}
+
+.text-header h1 {
+  color: white;
+  font-family: poppins;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.text-header button {
+  font-family: Poppins;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+}
+@keyframes melayang {
+  0% {
+    margin-top: -800px;
+  }
+  50% {
+    margin-top: -700px;
+  }
+  100% {
+    margin-top: -800px;
+  }
+}
+.card-body-1 {
+  background-color: white;
+  width: 100%;
+  height: max-content;
+  margin-top: 200px;
+  padding-bottom: 50px;
+}
+.card-text-1 {
+  width: 100%;
+  height: max-content;
+  background-color: black;
+  margin-top: 150px;
+  border-radius: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.text-1 h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-weight: bolder;
+  text-align: left;
+}
+.text-1 p {
+  color: white;
+  font-family: Poppins;
+  text-align: justify;
+}
+.vline-1 {
+  border-left: 10px solid white;
+  height: 100%;
+  margin-left: 100px;
+}
+.card-body-2 {
+  width: 100%;
+  height: 1000px;
+}
+.card-text-2 {
+  width: 100%;
+  height: max-content;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.text-2 h1 {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-weight: bolder;
+  text-align: left;
+  text-align: center;
+}
+.text-2 img {
+  border-radius: 20px;
+  width: 100%;
+  height: 50%;
+}
+.text-2 p {
+  text-align: justify;
+  font-family: Poppins;
+}
+.card-body-3 {
+  background-color: white;
+  width: 100%;
+  height: max-content;
+  padding-bottom: 2px;
+}
+.footer h1 {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+.footer a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+}
+.footer p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}

@@ -1,0 +1,139 @@
+@media screen and (min-width: 1000px) {
+  .text-header {
+    padding: 300px;
+    text-align: left;
+  }
+  .text-header h1 {
+    font-size: 75px;
+  }
+  .text-header button {
+    font-size: 50px;
+  }
+  .head-img img {
+    width: 450px;
+    height: 550px;
+    margin-right: 300px;
+    animation: melayang 4s infinite;
+  }
+  .card-planet img {
+    margin-top: -150px;
+  }
+  .card-planet button {
+    margin-left: 80px;
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .head-img {
+    width: 50%;
+    height: 50%;
+  }
+  .text-header {
+    text-align: center;
+  }
+  .card-planet img {
+    margin-top: -150px;
+  }
+  .card-planet button {
+    margin-left: 35%;
+    font-size: 25px;
+  }
+  .card-planet h1 {
+    font-size: 35px;
+  }
+}
+body {
+  background-color: black;
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+}
+nav img {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+}
+nav h3 {
+  color: white;
+  margin-right: 40px;
+  font-weight: bolder;
+}
+
+.text-header h1 {
+  color: white;
+  font-family: poppins;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.text-header button {
+  font-family: Poppins;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+}
+@keyframes melayang {
+  0% {
+    margin-top: -800px;
+  }
+  50% {
+    margin-top: -700px;
+  }
+  100% {
+    margin-top: -800px;
+  }
+}
+.kotak-cat {
+  width: 100%;
+  height: max-content;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 50px;
+}
+.Sub-judul h1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: poppins;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+.card-planet {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: max-content;
+  padding-bottom: 50px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+.card-planet h1 {
+  text-align: center;
+  font-family: poppins;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 50px;
+}
+.card-planet button {
+  font-family: Poppins;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+}
+.footer h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 100px;
+}
+.footer a {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.footer p {
+  color: white;
+  text-align: center;
+}
